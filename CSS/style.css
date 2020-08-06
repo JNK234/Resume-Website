@@ -1,0 +1,757 @@
+
+
+/* For Laptaop and Desktop Sizes */
+
+@media (min-width: 1200px) and (max-width:1600px){
+
+  /* HEADER SECTION */
+  .introduction {
+    text-align: center;
+    margin: 19em auto 23em;
+  }
+
+  .intro-text {
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+  }
+  .name{
+    font-family: 'Arimo', sans-serif;
+    padding-top: 20px;
+  }
+  /* navigation bar */
+  #header .navbar {
+    padding: 20px 20px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .nav-item {
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .item-icon {
+    margin-right: 3px;
+  }
+
+  /* ABOUT ME SECTION */
+  #about-me .container-fluid {
+    color: white;
+    background-color: black;
+  }
+
+  .about-me-content {
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Arimo', sans-serif;
+    width: 85%;
+    font-size: 30px;
+    padding-bottom: 90px;
+    line-height: 1.72;
+  }
+
+  .aboutMe-heading {
+    padding: 80px 0 90px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+  }
+
+  #about-me .row {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .icon-tagline {
+    margin: 25px auto;
+    width: 60%;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .icon {
+    margin: 20px;
+  }
+
+  .icon-heading {
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+  }
+
+  /* SKILLS BAR */
+  .My-skills-heading {
+    text-align: center;
+    padding: 80px 0 90px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+  }
+
+  .skill-bars-list {
+    margin: 0 auto 150px;
+    width: 70%;
+  }
+
+  .skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: all width, background-color;
+  }
+
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: black;
+  }
+
+  .skillbar-title span {
+    display: block;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: grey;
+  }
+
+  .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+  }
+
+  /* Contact Me CSS */
+  .contact-me {
+    background-color: black;
+    color: white;
+  }
+
+  .contactMe-heading {
+    padding: 80px 0 90px;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+
+  .contact-text {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Arimo', sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+
+  .input-box {
+    margin: 0 auto;
+    width: 50%;
+    padding: 40px 0;
+  }
+
+  .text-box {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  ::placeholder {
+    color: #89a3b2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+
+  .button {
+    width: 100%;
+    border: 2px solid white;
+    margin-bottom: 50px;
+  }
+
+  .get-in-touch {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .icon-contact {
+    margin-left: 30px;
+    font-size: 2 8px;
+    color: black;
+  }
+
+  .line {
+    border-top: 2px solid black;
+    width: 70%;
+  }
+
+  .icons-contact {
+    margin-top: 50px;
+  }
+
+  .copyright-text {
+    font-family: 'Arimo', sans-serif;
+    margin: 30px;
+  }
+}
+
+/* For mobile and tablet versions */
+
+@media (max-width:991px) and (min-width:100px) {
+  .introduction {
+    text-align: center;
+    margin: 15em .75em 14em;
+  }
+
+  .intro-text {
+    font-size: 40px;
+    font-family: 'Arimo', sans-serif;
+  }
+  .name{
+    font-family: 'Arimo', sans-serif;
+    padding-top: 15px;
+  }
+  /* navigation bar */
+  #header .navbar {
+    padding: 20px 30px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .nav-item {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .item-icon {
+    margin-right: 3px;
+  }
+
+  /* ABOUT ME SECTION */
+
+  #about-me .container-fluid {
+    color: white;
+    background-color: black;
+  }
+
+  .about-me-content {
+    text-align: center;
+    margin: 20px 15px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    padding-bottom: 40px;
+    line-height:1.8;
+  }
+
+  .aboutMe-heading {
+    padding: 80px 0 30px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 35px;
+  }
+
+  .column{
+    padding-bottom: 40px;
+  }
+
+  #about-me .row {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .icon-tagline {
+    margin: 20px auto;
+    width: 60%;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .icon {
+    margin: 10px;
+  }
+
+  .icon-heading {
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+  }
+
+  /* SKILLS BAR */
+  .My-skills-heading {
+    text-align: center;
+    padding: 60px 0 70px;
+    font-size: 35px;
+    font-family: 'Arvo', serif;
+  }
+
+  .skill-bars-list {
+    margin: 0 auto 120px;
+    width: 80%;
+  }
+
+  .skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: all width, background-color;
+  }
+
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: black;
+  }
+
+  .skillbar-title span {
+    display: block;
+    padding: 0 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: grey;
+  }
+
+  .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+  }
+
+  /* Contact Me CSS */
+  .contact-me {
+    background-color: black;
+    color: white;
+  }
+
+  .contactMe-heading {
+    padding: 60px 0 50px;
+    font-family: 'Arvo', serif;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+
+  .contact-text {
+    width: 87%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.75;
+  }
+
+  .input-box {
+    margin: 0 auto;
+    width: 70%;
+    padding: 40px 0;
+  }
+
+  .text-box {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-left: 10px;
+    height: 300px;
+  }
+
+  ::placeholder {
+    color: #89a3b2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .button {
+    width: 100%;
+    border: 2px solid white;
+    margin-bottom: 50px;
+  }
+
+  .get-in-touch {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .icon-contact {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+  }
+
+  .line {
+    border-top: 2px solid black;
+    width: 90%;
+  }
+
+  .icons-contact {
+    margin-top: 30px;
+  }
+
+  .copyright-text {
+    font-family: 'Arimo', sans-serif;
+    margin: 20px;
+  }
+}
+
+@media (min-width:991.2px) and (max-width:1199.99px){
+
+  /* HEADER SECTION */
+  .introduction {
+    text-align: center;
+    margin: 19em auto 23em;
+  }
+
+  .intro-text {
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+  }
+  .name{
+    font-family: 'Arimo', sans-serif;
+    padding-top: 15px;
+  }
+
+  /* navigation bar */
+  #header .navbar {
+    padding: 20px 20px;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .nav-item {
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .item-icon {
+    margin-right: 3px;
+  }
+
+  /* ABOUT ME SECTION */
+  #about-me .container-fluid {
+    color: white;
+    background-color: black;
+  }
+
+  .about-me-content {
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Arimo', sans-serif;
+    width: 85%;
+    font-size: 30px;
+    padding-bottom: 90px;
+    line-height: 1.72;
+  }
+
+  .aboutMe-heading {
+    padding: 80px 0 90px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+  }
+
+  #about-me .row {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .icon-tagline {
+    margin: 25px auto;
+    width: 60%;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .icon {
+    margin: 20px;
+  }
+
+  .icon-heading {
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+  }
+
+  /* SKILLS BAR */
+  .My-skills-heading {
+    text-align: center;
+    padding: 80px 0 90px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+  }
+
+  .skill-bars-list {
+    margin: 0 auto 150px;
+    width: 70%;
+  }
+
+  .skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: all width, background-color;
+  }
+
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: black;
+  }
+
+  .skillbar-title span {
+    display: block;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: grey;
+  }
+
+  .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+  }
+
+  /* Contact Me CSS */
+  .contact-me {
+    background-color: black;
+    color: white;
+  }
+
+  .contactMe-heading {
+    padding: 80px 0 90px;
+    font-family: 'Arvo', serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+
+  .contact-text {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Arimo', sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+
+  .input-box {
+    margin: 0 auto;
+    width: 60%;
+    padding: 40px 0;
+  }
+
+  .text-box {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  ::placeholder {
+    color: #89a3b2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+
+  .button {
+    width: 100%;
+    border: 2px solid white;
+    margin-bottom: 50px;
+  }
+
+  .get-in-touch {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .icon-contact {
+    margin-left: 30px;
+    font-size: 25px;
+    color: black;
+  }
+
+  .line {
+    border-top: 2px solid black;
+    width: 70%;
+  }
+
+  .icons-contact {
+    margin-top: 50px;
+  }
+
+  .copyright-text {
+    font-family: 'Arimo', sans-serif;
+    margin: 30px;
+  }
+}
